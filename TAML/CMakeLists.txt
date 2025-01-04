@@ -1,15 +1,12 @@
 ﻿cmake_minimum_required(VERSION 3.10)
 project(TAML)
 
-# Add include directories
 include_directories(include)
 
 add_library(TAML src/TAML.cpp)
 
-# Add subdirectories
 add_subdirectory(src)
 add_subdirectory(include)
 add_subdirectory(tests)
 add_subdirectory(examples)
 
-# Define the TAML library
