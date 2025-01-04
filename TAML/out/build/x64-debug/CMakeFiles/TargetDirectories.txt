@@ -1,0 +1,13 @@
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/CMakeFiles/TAML.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/include/CMakeFiles/edit_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/include/CMakeFiles/rebuild_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/tests/CMakeFiles/test.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/tests/CMakeFiles/edit_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/tests/CMakeFiles/rebuild_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/examples/CMakeFiles/examples.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/examples/CMakeFiles/edit_cache.dir
+C:/Users/Tomer/OneDrive/Desktop/TAML/TAML/out/build/x64-debug/examples/CMakeFiles/rebuild_cache.dir

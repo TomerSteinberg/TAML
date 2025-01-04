@@ -1,0 +1,2 @@
+add_executable(examples playgroundTest.cpp)
+target_link_libraries(examples TAML)
