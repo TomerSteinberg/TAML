@@ -2,10 +2,7 @@
 //
 #include <iostream>
 
-#include "../src/TAML.hpp"
+#include "assert.h"
 using namespace std;
 
-int main() {
-    cout << func(5) << endl;
-    return 0;
-}
+int main() { return 0; }

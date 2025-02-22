@@ -3,7 +3,7 @@ project(TAML)
 
 include_directories(include)
 
-add_library(TAML src/TAML.cpp)
+add_library(TAML src/tensor.cc src/graph.cc src/symbolic_tensor.cc src/operation.cc)
 
 add_subdirectory(src)
 add_subdirectory(include)

@@ -1,0 +1,11 @@
+# ninja log v6
+3	642	7573586368469919	TAML/CMakeFiles/TAML.dir/TAML.cpp.obj	babedb10504866b1
+643	731	7573586374866395	TAML/TAML.exe	89c5f267b5ef0777
+13	221	7577170857591460	CMakeFiles/test.dir/tests/TAMLtest.cpp.obj	be7b6161382dfbf7
+9	223	7577170857561464	CMakeFiles/TAML.dir/src/TAML.cpp.obj	633eca678172790
+223	251	7577170859693971	TAML.lib	59923d693b54f3a6
+11	395	7577170857571461	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	35e5522309ed9cab
+6	893	7577170857530790	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	2118479f07718b95
+893	931	7577170866404363	lib/gtestd.lib	f1e35f84360dcbc0
+931	954	7577170866784310	lib/gtest_maind.lib	ddf2ac1c39286720
+954	1129	7577170867004546	test.exe	60e378559d446189
