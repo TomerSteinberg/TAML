@@ -1,6 +1,8 @@
 cc_library(
     name = "taml",
-    srcs = ["my_lib.cpp"],
-    hdrs = ["my_lib.hpp"],
-    deps = ["//third_party/xtensor:xtensor"],
+    srcs = glob(["*.cc"]),
+    hdrs = glob(["*.hpp"]),
+    includes = ["."],
+    deps = ["@xtensor//:xtensor"],
+    visibility = ["//visibility:public"],
 )

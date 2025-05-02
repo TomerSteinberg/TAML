@@ -135,6 +135,40 @@
   },
   "selectedYankedVersions": {},
   "moduleExtensions": {
+    "//third_party:extensions.bzl%xtensor": {
+      "general": {
+        "bzlTransitiveDigest": "pgkuP4XD1xM8nYP2/wCub0Nb8ennrc8HgImoSVr+t9Q=",
+        "usagesDigest": "vU3KFEwXLkX1EUACZK1ifxyeFf1cImufX3z32M/4dqw=",
+        "recordedFileInputs": {},
+        "recordedDirentsInputs": {},
+        "envVariables": {},
+        "generatedRepoSpecs": {
+          "xtl": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://github.com/xtensor-stack/xtl/archive/refs/tags/0.7.5.tar.gz",
+              "strip_prefix": "xtl-0.7.5",
+              "build_file_content": "\r\ncc_library(\r\n    name = \"xtl\",\r\n    hdrs = glob([\"include/xtl/**/*.hpp\"]),\r\n    includes = [\"include\"],\r\n    visibility = [\"//visibility:public\"],\r\n)\r\n"
+            }
+          },
+          "xtensor": {
+            "repoRuleId": "@@bazel_tools//tools/build_defs/repo:http.bzl%http_archive",
+            "attributes": {
+              "url": "https://github.com/xtensor-stack/xtensor/archive/refs/tags/0.24.6.tar.gz",
+              "strip_prefix": "xtensor-0.24.6",
+              "build_file_content": "\r\ncc_library(\r\n    name = \"xtensor\",\r\n    hdrs = glob([\"include/xtensor/**/*.hpp\"]),\r\n    includes = [\"include\"],\r\n    deps = [\"@xtl//:xtl\"],\r\n    visibility = [\"//visibility:public\"],\r\n)\r\n"
+            }
+          }
+        },
+        "recordedRepoMappingEntries": [
+          [
+            "",
+            "bazel_tools",
+            "bazel_tools"
+          ]
+        ]
+      }
+    },
     "@@platforms//host:extension.bzl%host_platform": {
       "general": {
         "bzlTransitiveDigest": "xelQcPZH8+tmuOHVjL9vDxMnnQNMlwj0SlvgoqBkm4U=",
